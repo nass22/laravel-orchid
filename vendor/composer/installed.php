@@ -1,11 +1,11 @@
 <?php return array(
     'root' => array(
-        'pretty_version' => 'v11.0.6',
-        'version' => '11.0.6.0',
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => NULL,
+        'reference' => '1d99d8ec17928ca6c7c433df37d75b8bfc6117aa',
         'name' => 'laravel/laravel',
         'dev' => true,
     ),
@@ -380,12 +380,12 @@
             'dev_requirement' => false,
         ),
         'laravel/laravel' => array(
-            'pretty_version' => 'v11.0.6',
-            'version' => '11.0.6.0',
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => NULL,
+            'reference' => '1d99d8ec17928ca6c7c433df37d75b8bfc6117aa',
             'dev_requirement' => false,
         ),
         'laravel/pint' => array(
@@ -414,6 +414,15 @@
             'aliases' => array(),
             'reference' => '8be4a31150eab3b46af11a2e7b2c4632eefaad7e',
             'dev_requirement' => true,
+        ),
+        'laravel/scout' => array(
+            'pretty_version' => 'v10.8.6',
+            'version' => '10.8.6.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../laravel/scout',
+            'aliases' => array(),
+            'reference' => 'ee1ec27cfb723a6909d968db52d562ed9d2d9eb9',
+            'dev_requirement' => false,
         ),
         'laravel/serializable-closure' => array(
             'pretty_version' => 'v1.3.3',
@@ -563,6 +572,24 @@
             'install_path' => __DIR__ . '/../nunomaduro/termwind',
             'aliases' => array(),
             'reference' => '58c4c58cf23df7f498daeb97092e34f5259feb6a',
+            'dev_requirement' => false,
+        ),
+        'orchid/blade-icons' => array(
+            'pretty_version' => '4.1.1',
+            'version' => '4.1.1.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../orchid/blade-icons',
+            'aliases' => array(),
+            'reference' => 'b2fc5c8f86e3fd7f5c48f67305afd21dc3b65494',
+            'dev_requirement' => false,
+        ),
+        'orchid/platform' => array(
+            'pretty_version' => '14.23.0',
+            'version' => '14.23.0.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../orchid/platform',
+            'aliases' => array(),
+            'reference' => 'fc8e4e489af4a86eb4eca833bda12358de2e2695',
             'dev_requirement' => false,
         ),
         'phar-io/manifest' => array(
@@ -748,8 +775,8 @@
         'psr/log-implementation' => array(
             'dev_requirement' => false,
             'provided' => array(
-                0 => '1.0|2.0|3.0',
-                1 => '3.0.0',
+                0 => '3.0.0',
+                1 => '1.0|2.0|3.0',
             ),
         ),
         'psr/simple-cache' => array(
@@ -1268,6 +1295,15 @@
             'reference' => '0d3916ae69ea28b59d94b60c4f2b50f4e25adb5c',
             'dev_requirement' => true,
         ),
+        'tabuna/breadcrumbs' => array(
+            'pretty_version' => '4.1.0',
+            'version' => '4.1.0.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../tabuna/breadcrumbs',
+            'aliases' => array(),
+            'reference' => 'a8e615bbf8ff3b6c7e8aaffe4a4fb37d3eab8fe0',
+            'dev_requirement' => false,
+        ),
         'theseer/tokenizer' => array(
             'pretty_version' => '1.2.3',
             'version' => '1.2.3.0',
@@ -1286,6 +1322,15 @@
             'reference' => '83ee6f38df0a63106a9e4536e3060458b74ccedb',
             'dev_requirement' => false,
         ),
+        'twbs/bootstrap-icons' => array(
+            'pretty_version' => 'v1.11.3',
+            'version' => '1.11.3.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../twbs/bootstrap-icons',
+            'aliases' => array(),
+            'reference' => '8d88686c03c3768a2d82ba4f20c3c4e1b100fa29',
+            'dev_requirement' => false,
+        ),
         'vlucas/phpdotenv' => array(
             'pretty_version' => 'v5.6.0',
             'version' => '5.6.0.0',
@@ -1302,6 +1347,15 @@
             'install_path' => __DIR__ . '/../voku/portable-ascii',
             'aliases' => array(),
             'reference' => 'b56450eed252f6801410d810c8e1727224ae0743',
+            'dev_requirement' => false,
+        ),
+        'watson/active' => array(
+            'pretty_version' => '7.1.0',
+            'version' => '7.1.0.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../watson/active',
+            'aliases' => array(),
+            'reference' => '861be09a8d2ce225701f442899812506cbe5674e',
             'dev_requirement' => false,
         ),
         'webmozart/assert' => array(
