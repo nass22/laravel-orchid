@@ -33,7 +33,13 @@ use App\Orchid\Screens\TaskScreen;
 */
 
 // TASK
-Route::screen('task', TaskScreen::class)->name('platform.task');
+Route::screen('task', TaskScreen::class)
+    ->name('platform.task')
+    ->breadcrumbs(function (Trail $trail){
+        return $trail
+            ->parent('platform.index')
+            ->push('Task');
+    });
 
 // Main
 Route::screen('/main', PlatformScreen::class)
